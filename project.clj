@@ -6,6 +6,8 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/data.json "0.2.6"]
                  [org.clojure/math.numeric-tower "0.0.4"]
+                 [org.clojure/clojurescript "1.9.89"]
                  [com.cemerick/pomegranate "0.3.1"]
                  [korma "0.4.2"]
+                 [hiccup "1.0.5"]
                  [mysql/mysql-connector-java "5.1.39"]])
