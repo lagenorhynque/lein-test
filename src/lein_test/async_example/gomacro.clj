@@ -1,10 +1,10 @@
 (ns lein-test.async-example.gomacro
-  (:require [clojure.core.async :refer [go timeout]]))
+  (:require [clojure.core.async :refer [go]]))
 
 (defn test-gomacro []
   (doseq [i (range 10)]
     (go
-     (timeout (rand-int 1000))
+     (Thread/sleep (rand-int 1000))
      (println i)))
-  (timeout 2000)
+  (Thread/sleep 2000)
   nil)
