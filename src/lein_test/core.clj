@@ -1,6 +1,7 @@
-(ns lein-test.core)
+(ns lein-test.core
+  (:require [lein-test.stm-example.stm-demo :as s])
+  (:gen-class))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main []
+  (println "Hello, World!")
+  (println (s/exec 3)))
