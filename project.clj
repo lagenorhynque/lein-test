@@ -15,4 +15,7 @@
                  [korma "0.4.2"]
                  [hiccup "1.0.5"]
                  [mysql/mysql-connector-java "5.1.39"]]
- :main lein-test.core)
+ :uberjar-name "lein-test.jar"
+ :profiles
+ {:uberjar {:aot :all
+            :main lein-test.core}})
