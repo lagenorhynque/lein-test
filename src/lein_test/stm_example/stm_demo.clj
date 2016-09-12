@@ -1,7 +1,10 @@
 (ns lein-test.stm-example.stm-demo)
 
+(def ^:private n (ref 0))
+
 (defn- f [x]
-  (ref (* x 2)))
+  (* x 2))
 
 (defn exec [x]
-  @(f x))
+  (dosync (ref-set n x)
+          (alter n f)))
