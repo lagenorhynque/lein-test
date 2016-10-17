@@ -19,7 +19,7 @@
  :source-paths ["src/clj" "test/clj"]
  :cljsbuild
  {:builds [{:source-paths ["src/cljs"]
-            :compiler {:output-to "resources/public/main.js"
+            :compiler {:output-to "resources/public/js/compiled/main.js"
                        :optimizations :whitespace
                        :pretty-print true}}]}
  :uberjar-name "lein-test.jar"
