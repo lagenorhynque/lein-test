@@ -1,4 +1,4 @@
 lein-test
 =========
 
-ClojureとLeiningenについての学習メモ。
+Study notes on Clojure & Leiningen.
