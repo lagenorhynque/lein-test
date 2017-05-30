@@ -1,6 +1,5 @@
 (ns lein-test.monad-example.dist
   (:require [cats.protocols :as p]
-            [cats.context :as ctx]
             [cats.util :as util]))
 
 (declare context)
