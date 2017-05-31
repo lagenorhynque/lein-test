@@ -1,5 +1,6 @@
 (ns lein-test.monad-example.dist
-  (:require [cats.protocols :as p]
+  (:require [cats.core :as m]
+            [cats.protocols :as p]
             [cats.util :as util]))
 
 (declare context)
@@ -56,7 +57,8 @@
 
 (util/make-printable (type context))
 
-;; example: Monty Hall problem
+;;; example: Monty Hall problem
+
 (def doors #{:a :b :c})
 
 (def dist1
