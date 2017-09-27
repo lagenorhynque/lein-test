@@ -24,4 +24,6 @@
   :uberjar-name "lein-test.jar"
   :profiles
   {:uberjar {:aot :all
-             :main lein-test.core}})
+             :main lein-test.core}
+   :dev {:dependencies [[org.clojure/test.check "0.9.0"]]
+         :source-paths ["env/dev/clj"]}})
