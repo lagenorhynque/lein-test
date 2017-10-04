@@ -12,3 +12,5 @@ pom.xml.asc
 .cljs_rhino_repl/
 /resources/public/js/compiled/**
 .nrepl-history
+.idea/
+*.iml
