@@ -1,4 +1,8 @@
 (ns user
-  (:require [clojure.spec.alpha :as s]
+  (:require [clojure.java.javadoc :refer [javadoc]]
+            [clojure.pprint :refer [pp pprint]]
+            [clojure.repl :refer [apropos dir doc find-doc pst source]]
+            [clojure.spec.alpha :as s]
             [clojure.spec.gen.alpha :as gen]
-            [clojure.spec.test.alpha :as stest]))
+            [clojure.spec.test.alpha :as stest]
+            [clojure.tools.namespace.repl :refer [clear refresh refresh-all]]))
