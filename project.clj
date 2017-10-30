@@ -11,7 +11,6 @@
                  [org.clojure/clojurescript "1.9.946"]
                  [org.clojure/core.async "0.3.443"]
                  [org.clojure/core.match "0.3.0-alpha4"]
-                 [org.clojure/core.typed "0.4.3"]
                  [org.clojure/test.check "0.9.0"]
                  [prismatic/schema "1.1.7"]]
   :plugins [[lein-cljsbuild "1.1.6"]]
