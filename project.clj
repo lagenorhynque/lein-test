@@ -7,7 +7,7 @@
                  [funcool/beicon "4.1.0"]
                  [funcool/cats "2.1.0"]
                  [org.clojure/algo.monads "0.1.6"]
-                 [org.clojure/clojure "1.9.0-RC2"]
+                 [org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.9.946"]
                  [org.clojure/core.async "0.3.465"]
                  [org.clojure/core.match "0.3.0-alpha4"]
