@@ -13,8 +13,9 @@
                  [org.clojure/core.match "0.3.0-alpha4"]
                  [org.clojure/test.check "0.9.0"]
                  [prismatic/schema "1.1.7"]]
-  :plugins [[lein-cljsbuild "1.1.6"]]
-  :source-paths ["src/clj" "test/clj"]
+  :plugins [[lein-cljsbuild "1.1.7"]]
+  :source-paths ["src/clj"]
+  :test-paths ["test/clj"]
   :cljsbuild
   {:builds [{:source-paths ["src/cljs"]
              :compiler {:output-to "resources/public/js/compiled/main.js"
@@ -26,4 +27,7 @@
              :main lein-test.core}
    :dev {:dependencies [[org.clojure/tools.namespace "0.2.11"]
                         [org.clojure/test.check "0.9.0"]]
+         :plugins [[jonase/eastwood "0.2.5"]
+                   [lein-cljfmt "0.5.7"]
+                   [lein-kibit "0.1.6"]]
          :source-paths ["env/dev/clj"]}})
