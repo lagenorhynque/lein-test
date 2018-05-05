@@ -3,7 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[clj-time "0.14.2"]
+  :dependencies [[clj-time "0.14.3"]
                  [funcool/beicon "4.1.0"]
                  [funcool/cats "2.2.0"]
                  [org.clojure/algo.monads "0.1.6"]
