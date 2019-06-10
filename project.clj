@@ -7,7 +7,7 @@
                  [funcool/beicon "5.0.0"]
                  [funcool/cats "2.3.2"]
                  [org.clojure/algo.monads "0.1.6"]
-                 [org.clojure/clojure "1.10.0"]
+                 [org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.520"]
                  [org.clojure/core.async "0.4.490"]
                  [org.clojure/core.match "0.3.0"]
@@ -25,7 +25,7 @@
   :profiles
   {:uberjar {:aot :all
              :main lein-test.core}
-   :dev {:dependencies [[org.clojure/tools.namespace "0.2.11"]
+   :dev {:dependencies [[org.clojure/tools.namespace "0.3.0"]
                         [org.clojure/test.check "0.9.0"]]
          :plugins [[jonase/eastwood "0.3.5"]
                    [lein-cljfmt "0.6.4"]
